@@ -22,5 +22,5 @@ import {startFlow} from 'lighthouse';
     await flow.endNavigation();
 
     await browser.close();
-    writeFileSync('tmp/report.html', await flow.generateReport());
+    writeFileSync('./tmp/report.html', await flow.generateReport());
 })();
