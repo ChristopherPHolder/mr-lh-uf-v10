@@ -1,0 +1,24 @@
+{
+  "baseUrl": ".",
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "lib": [],
+    "strict": true,
+    "outDir": "./dist",
+    "types": ["node"]
+  },
+  "include": ["**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "tmp",
+    "**/tests/*",
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "**/static/**",
+    "**/test-data/**",
+    "jest.config.ts"
+  ]
+}
