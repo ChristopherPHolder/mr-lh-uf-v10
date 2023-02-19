@@ -8,17 +8,17 @@ import {startFlow} from 'lighthouse';
     const flow = await startFlow(page);
 
     // Navigate with a URL
-    await flow.navigate('https://example.com');
+    await flow.navigate('https://google.com');
 
     // Interaction-initiated navigation via a callback function
-    await flow.navigate(async () => {
-        await page.click('a');
-    });
+    // await flow.navigate(async () => {
+    //     await page.click('a');
+    // });
 
     // Navigate with startNavigation/endNavigation
-    await flow.startNavigation();
-    await page.click('a');
-    await flow.endNavigation();
+    // await flow.startNavigation();
+    // await page.click('a');
+    // await flow.endNavigation();
 
     await browser.close();
     writeFileSync('./tmp/report.html', await flow.generateReport());
