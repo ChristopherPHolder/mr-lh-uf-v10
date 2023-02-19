@@ -2,8 +2,8 @@
   "baseUrl": ".",
   "compilerOptions": {
     "rootDir": ".",
-    "sourceMap": true,
     "moduleResolution": "node",
+    "target": "es2015",
     "module": "esnext",
     "lib": [],
     "strict": true,
