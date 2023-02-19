@@ -6,6 +6,7 @@
     "build": "tsc"
   },
   "dependencies": {
+    "@types/puppeteer": "^7.0.4",
     "fs": "^0.0.1-security",
     "lighthouse": "^10.0.1",
     "puppeteer": "^19.7.1",
