@@ -1,10 +1,15 @@
 {
+  "type": "module",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "start-ts": "node dist/ts-main.js",
+    "build": "tsc"
   },
   "dependencies": {
+    "@types/puppeteer": "^7.0.4",
     "fs": "^0.0.1-security",
     "lighthouse": "^10.0.1",
-    "puppeteer": "^19.7.1"
+    "puppeteer": "^19.7.1",
+    "typescript": "^4.9.5"
   }
 }

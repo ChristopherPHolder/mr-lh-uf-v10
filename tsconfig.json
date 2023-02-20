@@ -1,0 +1,25 @@
+{
+  "baseUrl": ".",
+  "compilerOptions": {
+    "rootDir": ".",
+    "moduleResolution": "node",
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["ES2020", "DOM"],
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "outDir": "./dist",
+    "types": ["node"]
+  },
+  "include": ["**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "tmp",
+    "**/tests/*",
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "**/static/**",
+    "**/test-data/**",
+    "jest.config.ts"
+  ]
+}

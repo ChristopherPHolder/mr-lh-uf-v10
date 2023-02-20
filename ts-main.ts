@@ -1,5 +1,4 @@
-import {writeFileSync} from 'fs';
-
+import {writeFileSync} from "fs";
 import puppeteer from 'puppeteer';
 import {startFlow} from 'lighthouse';
 
